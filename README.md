@@ -28,24 +28,24 @@ An SVM model is trained on the preprocessed images using GridSearchCV to find th
 The model's performance is evaluated using accuracy, confusion matrix, and classification report metrics.
 
 # Project Implementation
- # Data Preparation
+  _Data Preparation
     # Load and Preprocess the Data:
       Images from the dataset are loaded, resized, normalized, and flattened into feature vectors.
     # Train-Test Split:
       The dataset is split into training and testing sets, with 80% used for training and 20% for testing.
-# Model Training
+  _Model Training
     #PCA and SVM Pipeline:
       A pipeline is created that first applies PCA for dimensionality reduction and then trains an SVM model.
     #Hyperparameter Tuning:
       GridSearchCV is used to find the best combination of PCA components and SVM parameters.
-# Model Evaluation
+  _Model Evaluation
   #Accuracy:
       The model's accuracy is calculated on the test set.
   #Confusion Matrix:
       A confusion matrix is plotted to visualize the classification performance.
   #Classification Report:
       A detailed classification report is generated, showing precision, recall, and F1-score for each class.
-# Unseen Image Prediction
+  _Unseen Image Prediction
   #Prediction on Unseen Data:
       The trained model is used to predict the class of an unseen image, with the results visualized along with the input image.
 # Results and Insights

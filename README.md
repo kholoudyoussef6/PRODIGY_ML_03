@@ -34,20 +34,27 @@ The model's performance is evaluated using accuracy, confusion matrix, and class
     # Train-Test Split:
       The dataset is split into training and testing sets, with 80% used for training and 20% for testing.
   _Model Training
+  
     #PCA and SVM Pipeline:
       A pipeline is created that first applies PCA for dimensionality reduction and then trains an SVM model.
+      
     #Hyperparameter Tuning:
       GridSearchCV is used to find the best combination of PCA components and SVM parameters.
+      
   _Model Evaluation
   #Accuracy:
       The model's accuracy is calculated on the test set.
+      
   #Confusion Matrix:
       A confusion matrix is plotted to visualize the classification performance.
+      
   #Classification Report:
       A detailed classification report is generated, showing precision, recall, and F1-score for each class.
+      
   _Unseen Image Prediction
   #Prediction on Unseen Data:
       The trained model is used to predict the class of an unseen image, with the results visualized along with the input image.
+      
 # Results and Insights
   Model Performance:
     The SVM model achieved high accuracy in classifying the images, demonstrating the effectiveness of PCA and SVM for this task.
